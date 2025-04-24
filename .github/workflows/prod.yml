@@ -30,7 +30,7 @@ jobs:
 
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@v4
-        if: env.DEPLOY == 'true'
+#        if: env.DEPLOY == 'true'
         with:
           token: ${{ secrets.ACCESS_TOKEN }}
           repository-name: kt2746/kt2746.github.io
