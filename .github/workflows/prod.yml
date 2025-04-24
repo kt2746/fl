@@ -33,7 +33,7 @@ jobs:
         if: env.DEPLOY == 'true'
         with:
           token: ${{ secrets.ACCESS_TOKEN }}
-          repository-name: fl/kt2746.github.io
+          repository-name: kt2746/kt2746.github.io
           branch: main
           folder: dist/browser
           clean: true
