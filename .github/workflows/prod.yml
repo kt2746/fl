@@ -32,7 +32,6 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@v4
 #        if: env.DEPLOY == 'true'
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
           token: ${{ secrets.ACCESS_TOKEN }}
           repository-name: kt2746/fl
           branch: main
