@@ -38,7 +38,7 @@ export interface PreferencesState {
 export const initialPreferencesState: PreferencesState = {
   states: {},
   columns: initialColumnsState,
-  language: Language.English,
+  language: Language.Japanese,
   powerUnit: PowerUnit.Auto,
   theme: Theme.Dark,
   bypassLanding: false,

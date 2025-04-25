@@ -218,7 +218,7 @@ export const preferencesState: PreferencesState = {
   rows: 50,
   disablePaginator: false,
   powerUnit: PowerUnit.Auto,
-  language: Language.English,
+  language: Language.Japanese,
   theme: Theme.Dark,
   bypassLanding: false,
   showTechLabels: false,
