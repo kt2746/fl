@@ -4400,7 +4400,6 @@
     padding: 0.5rem 0.5rem;
     box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.2), 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12);
     border-radius: 3px;
-    max-width: 20rem!important;
   }
   .p-tooltip.p-tooltip-right .p-tooltip-arrow {
     border-right-color: #383838;
@@ -6213,5 +6212,8 @@
 }
 tr.detail.tabs.ng-star-inserted td p-tabmenu.p-element div.p-tabmenu div.p-tabmenu-nav-container div.p-tabmenu-nav-content ul.p-tabmenu-nav li.ng-star-inserted.p-tabmenuitem.p-element:nth-of-type(4) {
  display:none;
+}
+div[role="tooltip"] {
+  max-width: 20rem;
 }
 /*# sourceMappingURL=theme.css.map */
