@@ -24,14 +24,15 @@ jobs:
 
       - name: Semantic release
 #        run: npx semantic-release
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
+#        env:
+#          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+#          DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
 
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@v4
 #        if: env.DEPLOY == 'true'
         with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
           token: ${{ secrets.ACCESS_TOKEN }}
           repository-name: kt2746/fl
           branch: main
