@@ -80,7 +80,7 @@
                   "with": "src/environments/environment.prod.ts"
                 }
               ],
-              "baseHref": "/",
+              "baseHref": "https://kt2746.github.io/fla/",
               "outputHashing": "all",
               "budgets": [
                 {
