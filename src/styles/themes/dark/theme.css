@@ -2666,7 +2666,7 @@
     text-align: left;
     border: 1px solid #383838;
     border-width: 0 0 1px 0;
-    padding: 1rem 1rem;
+    padding: 0rem 0rem;
   }
   .p-datatable .p-datatable-tbody > tr > td .p-row-toggler,
   .p-datatable .p-datatable-tbody > tr > td .p-row-editor-init,
@@ -2800,19 +2800,19 @@
     color: rgba(255, 255, 255, 0.87);
   }
   .p-datatable.p-datatable-sm .p-datatable-header {
-    padding: 0.5rem 0.5rem;
+    padding: 0rem 0rem;
   }
   .p-datatable.p-datatable-sm .p-datatable-thead > tr > th {
-    padding: 0.5rem 0.5rem;
+    padding: 0rem 0rem;
   }
   .p-datatable.p-datatable-sm .p-datatable-tbody > tr > td {
-    padding: 0.5rem 0.5rem;
+    padding: 0rem 0rem;
   }
   .p-datatable.p-datatable-sm .p-datatable-tfoot > tr > td {
-    padding: 0.5rem 0.5rem;
+    padding: 0rem 0rem;
   }
   .p-datatable.p-datatable-sm .p-datatable-footer {
-    padding: 0.5rem 0.5rem;
+    padding: 0rem 0rem;
   }
   .p-datatable.p-datatable-lg .p-datatable-header {
     padding: 1.25rem 1.25rem;
@@ -3651,16 +3651,16 @@
     padding: 0.875rem 0.875rem;
   }
   .p-treetable.p-treetable-sm .p-treetable-thead > tr > th {
-    padding: 0.5rem 0.5rem;
+    padding: 0rem 0rem;
   }
   .p-treetable.p-treetable-sm .p-treetable-tbody > tr > td {
-    padding: 0.5rem 0.5rem;
+    padding: 0rem 0rem;
   }
   .p-treetable.p-treetable-sm .p-treetable-tfoot > tr > td {
-    padding: 0.5rem 0.5rem;
+    padding: 0rem 0rem;
   }
   .p-treetable.p-treetable-sm .p-treetable-footer {
-    padding: 0.5rem 0.5rem;
+    padding: 0rem 0rem;
   }
   .p-treetable.p-treetable-lg .p-treetable-header {
     padding: 1.25rem 1.25rem;
